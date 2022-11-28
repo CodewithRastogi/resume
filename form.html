@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<h1>Enter Your Details Here</h1>
+<p>Required field*</p>
+<form action="">
+    <label for="">First Name*</label> <input type="text" name="f" value="Firstname" required>
+    <label for=""> Last Name*</label> <input type="text" name="l"value="Lastname" required>
+    <br><br>
+    <label for="">Age:</label><input type="number">
+    <br><br>
+    <label for="">DOB:</label><input type="date">
+    <br><br>
+    <label for="e">Email:*</label> <input type="email" id="e" required>
+    <label for="p">Password:</label><input type="password" id="p">
+    <p>Enter Your Tshirt Size</p>
+    <input type="radio" name="T" id="sl"><label for="sl">Small</label><br>
+    <input type="radio" name="T" id="md"><label for="md">Medium</label><br>
+    <input type="radio" name="T" id="L"><label for="L">Large</label>
+    <br><br>
+    <label for="c">Your Favourite color</label>
+    <input type="color" id="c">
+    <br><br>
+    <label for="cars">Choose a car</label>
+    <select name="car" id="cars">
+        <option value="Sel">Select a car</option>
+        <option value="Volvo">Volvo</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Saab">Saab</option>
+        <option value="Audi">Audi</option>
+    </select>
+    <br><br>
+    
+    
+    
+
+    <label for="ays">Tell us about yourself</label>
+    <textarea name="yourself" id="ays" cols="30" rows="5"></textarea>
+    <br><input type="reset" name="reset">
+    <input type="submit" name="Submit">
+
+</form>
+    
+</body>
+</html>
